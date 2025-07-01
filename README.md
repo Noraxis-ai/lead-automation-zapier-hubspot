@@ -101,32 +101,32 @@ Here are some visual overviews of the key steps in the Zapier automation.
 *This screenshot shows the complete sequence of steps in Zapier, from trigger to final action.*
 
 ### Google Forms - Lead Capture
-![Google Forms Screenshot](assets/screenshots/google_forms_capture.png)
+#### ![Google Forms Screenshot](assets/screenshots/google_forms_capture.png)
 *This screenshot shows the Google Forms interface where leads submit their inquiries.*
 
 ### Google Sheets - Data Storage
-![Google Sheets Screenshot](assets/screenshots/google_sheets_data.png)
+ ![Google Sheets Screenshot](assets/screenshots/google_sheets_data.png)
 *An overview of the Google Sheet where raw lead data is initially stored.*
 
 ### Zapier Formatter - Data Standardization
-![Zapier Formatter Screenshot](assets/screenshots/zapier_formatter_step.png)
+ ![Zapier Formatter Screenshot](assets/screenshots/zapier_formatter_step.png)
 *An example of the Zapier Formatter step used for data standardization (e.g., language code conversion).*
 
 ### Python Data Cleaning
-![Python code step in Zapier](assets/screenshots/zapier_python_step.png)
+ ![Python code step in Zapier](assets/screenshots/zapier_python_step.png)
 *An overview of the 'Code by Zapier' step where the Python script cleans phone numbers.*
 
 ### Contact Created in HubSpot
-![Example contact created in HubSpot](assets/screenshots/hubspot_contact_example.png)
+ ![Example contact created in HubSpot](assets/screenshots/hubspot_contact_example.png)
 *An example of a contact automatically created in HubSpot, with correctly mapped data.*
 
 ### Calendly - Automated Appointment Scheduling
-![Calendly Screenshot](assets/screenshots/calendly_scheduling_page.png)
+ ![Calendly Screenshot](assets/screenshots/calendly_scheduling_page.png)
 *A view of the Calendly scheduling page, demonstrating the seamless appointment booking process for leads.*
 
 
 ### Notification Email
-![Notification email received](assets/screenshots/gmail_notification_email.png)
+ ![Notification email received](assets/screenshots/gmail_notification_email.png)
 *The internal notification email received, including lead details and the AI-generated email draft.*
 Added Zapier workflow screenshots to the assets/screenshots folder
 
