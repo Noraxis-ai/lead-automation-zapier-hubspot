@@ -95,24 +95,24 @@ I designed and implemented an intelligent automation system that precisely colle
 ## 💻 Python Code
 **Below is the Python code snippet used in Zapier for cleaning and formatting phone numbers.**
 
-# Retrieves the raw phone number from the input data.
-# 'phone_raw' is the variable name you defined in Zapier.
+**Retrieves the raw phone number from the input data.**
+ 'phone_raw' is the variable name you defined in Zapier.
 phone_raw = input_data['phone_raw']
 
-# Ensures that phone_raw is a string, even if it's empty or None.
-# This prevents errors in case the data isn't already text.
+**Ensures that phone_raw is a string, even if it's empty or None.**
+This prevents errors in case the data isn't already text.
 phone_raw_str = str(phone_raw) if phone_raw is not None else ""
 
-# Cleans the string by keeping ONLY digits.
-# This automatically removes spaces, dashes, parentheses, letters, etc.
-# Example: "813 434 0000" or "(813) 434-0000" becomes "8134340000"
+**Cleans the string by keeping ONLY digits.**
+ This automatically removes spaces, dashes, parentheses, letters, etc.
+**Example: "813 434 0000" or "(813) 434-0000" becomes "8134340000"**
 cleaned_digits_only = "".join(filter(str.isdigit, phone_raw_str))
 
-# Adds the international prefix "+52" to the cleaned number.
-# Assumes all numbers processed by this Zap are Mexican numbers.
+**Adds the international prefix "+52" to the cleaned number.**
+Assumes all numbers processed by this Zap are Mexican numbers.
 final_phone_number = '+52' + cleaned_digits_only
 
-# Defines the output of the code. This will be used by the following Zapier steps.
+**Defines the output of the code. This will be used by the following Zapier steps.**
 output = [{'phone_number_cleaned': final_phone_number}]
 
 ---
