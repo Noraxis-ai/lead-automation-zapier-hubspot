@@ -95,6 +95,11 @@ I designed and implemented an intelligent automation system that precisely colle
 
 Here are some visual overviews of the key steps in the Zapier automation.
 
+
+### Zap Overview
+![Zapier Workflow Overview](assets/screenshots/zapier_workflow_overview.png)
+*This screenshot shows the complete sequence of steps in Zapier, from trigger to final action.*
+
 ### Google Forms - Lead Capture
 ![Google Forms Screenshot](assets/screenshots/google_forms_capture.png)
 *This screenshot shows the Google Forms interface where leads submit their inquiries.*
@@ -107,11 +112,6 @@ Here are some visual overviews of the key steps in the Zapier automation.
 ![Zapier Formatter Screenshot](assets/screenshots/zapier_formatter_step.png)
 *An example of the Zapier Formatter step used for data standardization (e.g., language code conversion).*
 
-
-### Zap Overview
-![Zapier Workflow Overview](assets/screenshots/zapier_workflow_overview.png)
-*This screenshot shows the complete sequence of steps in Zapier, from trigger to final action.*
-
 ### Python Data Cleaning
 ![Python code step in Zapier](assets/screenshots/zapier_python_step.png)
 *An overview of the 'Code by Zapier' step where the Python script cleans phone numbers.*
@@ -119,6 +119,11 @@ Here are some visual overviews of the key steps in the Zapier automation.
 ### Contact Created in HubSpot
 ![Example contact created in HubSpot](assets/screenshots/hubspot_contact_example.png)
 *An example of a contact automatically created in HubSpot, with correctly mapped data.*
+
+### Calendly - Automated Appointment Scheduling
+![Calendly Screenshot](assets/screenshots/calendly_scheduling_page.png)
+*A view of the Calendly scheduling page, demonstrating the seamless appointment booking process for leads.*
+
 
 ### Notification Email
 ![Notification email received](assets/screenshots/gmail_notification_email.png)
