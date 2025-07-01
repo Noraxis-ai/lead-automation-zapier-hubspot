@@ -91,30 +91,28 @@ I designed and implemented an intelligent automation system that precisely colle
 * 📄 **Complete Workflow Documentation:** https://www.notion.so/Stanley-Norcius-Junior-AI-Developer-Python-Chatbots-Automation-21f37c22bf7380fb9fdcc2bd868f7c29?source=copy_link#21f37c22bf738017aa69d5bb0fed7ed4
 * 🖼️ **Zapier Workflow Screenshots:** [Link to an `assets/screenshots` folder within this GitHub repo]
 
+💻 Python Code
+Here is the Python code snippet used within Zapier for cleaning and formatting phone numbers.
 
-## 💻 Python Code
-**Below is the Python code snippet used in Zapier for cleaning and formatting phone numbers.**
-
-**Retrieves the raw phone number from the input data.**
- 'phone_raw' is the variable name you defined in Zapier.
+# Retrieves the raw phone number from the input data.
+# 'phone_raw' is the variable name you defined in Zapier.
 phone_raw = input_data['phone_raw']
 
-**Ensures that phone_raw is a string, even if it's empty or None.**
-This prevents errors in case the data isn't already text.
+# Ensures that phone_raw is a string, even if it's empty or None.
+# This is a safety measure to prevent errors if the data is not text.
 phone_raw_str = str(phone_raw) if phone_raw is not None else ""
 
-**Cleans the string by keeping ONLY digits.**
- This automatically removes spaces, dashes, parentheses, letters, etc.
-**Example: "813 434 0000" or "(813) 434-0000" becomes "8134340000"**
+# Cleans the string by keeping ONLY digits.
+# This automatically removes spaces, hyphens, parentheses, letters, etc.
+# Example: "813 434 0000" or "(813) 434-0000" becomes "8134340000"
 cleaned_digits_only = "".join(filter(str.isdigit, phone_raw_str))
 
-**Adds the international prefix "+52" to the cleaned number.**
-Assumes all numbers processed by this Zap are Mexican numbers.
+# Adds the international prefix "+52" to the beginning of the cleaned number.
+# This assumes that all numbers processed by this Zap are Mexican phone numbers.
 final_phone_number = '+52' + cleaned_digits_only
 
-**Defines the output of the code. This will be used by the following Zapier steps.**
+# Defines the output of the code. This will be the value that subsequent Zapier steps can use.
 output = [{'phone_number_cleaned': final_phone_number}]
-
 ---
 
 ## 🛠️ Technologies Used
