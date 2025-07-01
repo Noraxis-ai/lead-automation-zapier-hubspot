@@ -89,7 +89,7 @@ I designed and implemented an intelligent automation system that precisely colle
 * 💡 **View Detailed Architecture:** https://www.notion.so/Stanley-Norcius-Junior-AI-Developer-Python-Chatbots-Automation-21f37c22bf7380fb9fdcc2bd868f7c29?source=copy_link#21f37c22bf73803b8900de4c90e3b816
 * 📈 **Explore Performance Metrics:** https://www.notion.so/Stanley-Norcius-Junior-AI-Developer-Python-Chatbots-Automation-21f37c22bf7380fb9fdcc2bd868f7c29?source=copy_link#21f37c22bf738030af45edc3a15ea45b
 * 📄 **Complete Workflow Documentation:** https://www.notion.so/Stanley-Norcius-Junior-AI-Developer-Python-Chatbots-Automation-21f37c22bf7380fb9fdcc2bd868f7c29?source=copy_link#21f37c22bf738017aa69d5bb0fed7ed4
-* 🖼️ **Zapier Workflow Screenshots:**assets/screenshots
+* 🖼️ **Zapier Workflow Screenshots:** https://github.com/Noraxis-ai/lead-automation-zapier-hubspot/tree/main/assets/screenshots
 
 * ## 🖼️ Workflow Screenshots
 
