@@ -91,24 +91,45 @@ I designed and implemented an intelligent automation system that precisely colle
 * 📄 **Complete Workflow Documentation:** https://www.notion.so/Stanley-Norcius-Junior-AI-Developer-Python-Chatbots-Automation-21f37c22bf7380fb9fdcc2bd868f7c29?source=copy_link#21f37c22bf738017aa69d5bb0fed7ed4
 * 🖼️ **Zapier Workflow Screenshots:** [Link to an `assets/screenshots` folder within this GitHub repo]
 
+* ## 🖼️ Workflow Screenshots
+
+Here are some visual overviews of the key steps in the Zapier automation.
+
+### Zap Overview
+![Zapier Workflow Overview](assets/screenshots/zapier_workflow_overview.png)
+*This screenshot shows the complete sequence of steps in Zapier, from trigger to final action.*
+
+### Python Data Cleaning
+![Python code step in Zapier](assets/screenshots/zapier_python_step.png)
+*An overview of the 'Code by Zapier' step where the Python script cleans phone numbers.*
+
+### Contact Created in HubSpot
+![Example contact created in HubSpot](assets/screenshots/hubspot_contact_example.png)
+*An example of a contact automatically created in HubSpot, with correctly mapped data.*
+
+### Notification Email
+![Notification email received](assets/screenshots/gmail_notification_email.png)
+*The internal notification email received, including lead details and the AI-generated email draft.*
+Added Zapier workflow screenshots to the assets/screenshots folder
+
 💻 Python Code
 Here is the Python code snippet used within Zapier for cleaning and formatting phone numbers.
 
 # Retrieves the raw phone number from the input data.
-# 'phone_raw' is the variable name you defined in Zapier.
+ 'phone_raw' is the variable name you defined in Zapier.
 phone_raw = input_data['phone_raw']
 
 # Ensures that phone_raw is a string, even if it's empty or None.
-# This is a safety measure to prevent errors if the data is not text.
+ This is a safety measure to prevent errors if the data is not text.
 phone_raw_str = str(phone_raw) if phone_raw is not None else ""
 
 # Cleans the string by keeping ONLY digits.
-# This automatically removes spaces, hyphens, parentheses, letters, etc.
-# Example: "813 434 0000" or "(813) 434-0000" becomes "8134340000"
+ This automatically removes spaces, hyphens, parentheses, letters, etc.
+ Example: "813 434 0000" or "(813) 434-0000" becomes "8134340000"
 cleaned_digits_only = "".join(filter(str.isdigit, phone_raw_str))
 
 # Adds the international prefix "+52" to the beginning of the cleaned number.
-# This assumes that all numbers processed by this Zap are Mexican phone numbers.
+ This assumes that all numbers processed by this Zap are Mexican phone numbers.
 final_phone_number = '+52' + cleaned_digits_only
 
 # Defines the output of the code. This will be the value that subsequent Zapier steps can use.
