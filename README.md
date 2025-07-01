@@ -95,6 +95,19 @@ I designed and implemented an intelligent automation system that precisely colle
 
 Here are some visual overviews of the key steps in the Zapier automation.
 
+### Google Forms - Lead Capture
+![Google Forms Screenshot](assets/screenshots/google_forms_capture.png)
+*This screenshot shows the Google Forms interface where leads submit their inquiries.*
+
+### Google Sheets - Data Storage
+![Google Sheets Screenshot](assets/screenshots/google_sheets_data.png)
+*An overview of the Google Sheet where raw lead data is initially stored.*
+
+### Zapier Formatter - Data Standardization
+![Zapier Formatter Screenshot](assets/screenshots/zapier_formatter_step.png)
+*An example of the Zapier Formatter step used for data standardization (e.g., language code conversion).*
+
+
 ### Zap Overview
 ![Zapier Workflow Overview](assets/screenshots/zapier_workflow_overview.png)
 *This screenshot shows the complete sequence of steps in Zapier, from trigger to final action.*
